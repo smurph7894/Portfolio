@@ -5,73 +5,78 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="author" content="Sarah Murphree">
+        <meta name="description" content="CSI443 Web site.  Text here shows up in the description listed in search engine results.">
+        <meta name="keywords" content="HTML,CSS,XML,JavaScript">
 
-    <meta name="description" content="CSI443 Web site.  Text here shows up in the description listed in search engine results.">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-
-    <title>Sarah Murphree Portfolio</title>
+        <title>Sarah Murphree Portfolio</title>
 
 <!-- See http://getbootstrap.com for detgails on how to use these libraries -->
-    <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 <!-- Below is the link to your custom style sheet. -->
     <!-- link rel="stylesheet" href="../css/style.css" / -->
 
 <!-- Below is an Internal style that places a border around divs.  USE BORDERS DURING DEVELOPMENT TO SEE WHAT IS GOING ON
 TURN BORDERS OFF, TURN BORDERS OFF, REPEAT, TURN BORDERS OFF FOR PRODUCTION.  DO NOT LEAVE ANY UNSTYLED BORDERS TURNED ON WHEN YOU PUBLISH YOUR PAGE FOR PUBLIC ACCESS -->
-    <style>
-        div {
-            border: solid;
-        }
-
-        @media only screen and (min-width: 100px) {
-            /* For tablets: */
-
-            /* this will change the container class background to red when tablet*/
-
-            .col {
-                background-color: lavenderblush;
+        <style>
+            div {
+                border: solid;
             }
-        }
 
-        @media only screen and (min-width: 768px) {
-            /* For desktop: will change the container class to orange*/
+            @media only screen and (min-width: 100px) {
+                /* For tablets: */
 
-            .col {
-                background-color: lightgray;
+                /* this will change the container class background to red when tablet*/
+
+                .col {
+                    background-color: lavenderblush;
+                }
             }
-        }
 
-        @media only screen and (min-width: 992px) {
-            /* For desktop: will change the container class to orange*/
+            @media only screen and (min-width: 768px) {
+                /* For desktop: will change the container class to orange*/
 
-            .col {
-                background-color: lightgoldenrodyellow;
+                .col {
+                    background-color: lightgray;
+                }
             }
-        }
 
-        @media only screen and (min-width: 1200px) {
-            /* For desktop: will change the container class to orange*/
+            @media only screen and (min-width: 992px) {
+                /* For desktop: will change the container class to orange*/
 
-            .col {
-                background-color: lavender;
+                .col {
+                    background-color: lightgoldenrodyellow;
+                }
             }
-        }
 
-        Orientation of landscape
+            @media only screen and (min-width: 1200px) {
+                /* For desktop: will change the container class to orange*/
 
-        @media only screen and (orientation: landscape) {
-            /* this will change the background to light blue when view is landscape */
-            background-color: lightblue;
-        }
+                .col {
+                    background-color: lavender;
+                }
+            }
 
-        
-    </style>
+            /*Orientation of landscape*/
 
-</head>
-<body>
+            @media only screen and (orientation: landscape) {
+                /* this will change the background to light blue when view is landscape */
+                .col {
+                    background-color: lightblue;
+                }
+            }
 
+            body {
+                background-image: url(./images/pexels-anniroenkae-2382738.jpg);
+                background-size: cover;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+            }
+            
+        </style>
 
-    <div class="container-fluid">
+    </head>
+    <body>
+        <div class="container-fluid">
 
             <div class="col col-sm-6 col-md-4 col-lg-3 col-xl-12">
                 <img src="./images/ProfilePic.jpg" style="float:left; height:250px; aspect-ratio: 1/1; margin:0px;">
@@ -118,11 +123,14 @@ TURN BORDERS OFF, TURN BORDERS OFF, REPEAT, TURN BORDERS OFF FOR PRODUCTION.  DO
             <div class="row-fluid">
                 <div class="col-sm-6 col-lg-6 hidden-sm hidden-md">
                 <a href="https://plduncanjr.github.io/WebRootArchive/html/MobileResources.html">Mobile Resources</a></div>
-                <div class="col-sm-6 col-lg-6 hidden-sm hidden-md">Web Resources</div>
+                <div class="col-sm-6 col-lg-6 hidden-sm hidden-md">
+                    <a href="./html/webresources.html">Web Resources</a></div>
+                
             </div>
             <!--!div-->
 
         </div>
 
 
-</body></html>
+    </body>
+</html>
